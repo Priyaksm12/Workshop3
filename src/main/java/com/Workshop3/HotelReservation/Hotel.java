@@ -1,5 +1,4 @@
 package com.Workshop3.HotelReservation;
-
 public class Hotel {
 
     String hotelName;

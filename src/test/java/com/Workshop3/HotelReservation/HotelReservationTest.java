@@ -1,5 +1,4 @@
 package com.Workshop3.HotelReservation;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
