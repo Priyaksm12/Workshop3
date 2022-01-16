@@ -75,4 +75,3 @@ public class HotelReservation implements HotelRegistrationInterface {
     }
 
 }
-
