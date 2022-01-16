@@ -9,5 +9,5 @@ public interface HotelRegistrationInterface {
     public int getHotelListSize();
     public void printHotelList();
     public ArrayList<Hotel> getHotelList();
-    public String getCheapestHotel(LocalDate startDate, LocalDate endDate);
+    public Hotel getCheapestHotel(LocalDate startDate, LocalDate endDate);
 }
