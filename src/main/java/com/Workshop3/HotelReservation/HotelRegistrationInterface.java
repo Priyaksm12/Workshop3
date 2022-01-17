@@ -1,5 +1,4 @@
 package com.Workshop3.HotelReservation;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -9,6 +8,5 @@ public interface HotelRegistrationInterface {
     public int getHotelListSize();
     public void printHotelList();
     public ArrayList<Hotel> getHotelList();
-    public ArrayList<Hotel> getCheapestHotel(LocalDate startDate, LocalDate endDate);
-    public Hotel getCheapestBestRatedHotel(LocalDate startDate, LocalDate endDate);
+    public String getCheapestHotel(LocalDate startDate, LocalDate endDate);
 }
